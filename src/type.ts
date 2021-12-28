@@ -56,3 +56,8 @@ type Plus = (a: number, b: number) => number;
 const add: Plus = (val1: number, val2: number): number => {
     return val1 + val2;
 }
+
+// union
+let phone: number | string;
+phone = 62123124123;
+phone = "6123124124"

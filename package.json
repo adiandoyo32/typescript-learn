@@ -6,7 +6,7 @@
   "scripts": {
     "tsc": "del /f ./build && tsc",
     "ts": "del /f build && tsc -w",
-    "dev": "nodemon ./build/class.js",
+    "dev": "nodemon ./build/module/Product.js",
     "test": ""
   },
   "keywords": [],
